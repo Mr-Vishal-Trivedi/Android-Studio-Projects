@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title=""
+        app:showAsAction="always"
+        >
+        <menu>
+            <item
+                android:id="@+id/signup_menu"
+                android:icon="@drawable/ic_baseline_app_registration_24"
+                android:title="Sign Up"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/login_menu"
+                android:icon="@drawable/ic_baseline_person_outline_24"
+                android:title="Log In"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/splash_menu"
+                android:icon="@drawable/ic_baseline_add_to_home_screen_24"
+                android:title="Go to Splash"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

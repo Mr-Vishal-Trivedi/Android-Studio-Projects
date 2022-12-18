@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="For_Pass">Forgot Password ?</string>
+    <string name="sign_in_message">Please sign in to continue</string>
+</resources>
